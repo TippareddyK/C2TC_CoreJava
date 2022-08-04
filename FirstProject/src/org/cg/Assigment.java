@@ -1,9 +1,13 @@
 package org.cg;
 
+import java.util.Scanner;
+
 public class Assigment {
 	
 	public static void main(String[] args) {
-		int salary = 1200000;
+		Scanner input = new Scanner (System.in);
+		System.out.print("enter the salery = ");
+		int salary =input.nextInt();
 		if (salary > 1000000) {
 			float a = (float)30/100;
 			float tax = a*salary;
