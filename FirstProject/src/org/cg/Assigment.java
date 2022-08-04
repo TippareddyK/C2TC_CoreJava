@@ -3,7 +3,7 @@ package org.cg;
 public class Assigment {
 	
 	public static void main(String[] args) {
-		float salary = 450000;
+		int salary = 1200000;
 		if (salary > 1000000) {
 			float a = (float)30/100;
 			float tax = a*salary;
