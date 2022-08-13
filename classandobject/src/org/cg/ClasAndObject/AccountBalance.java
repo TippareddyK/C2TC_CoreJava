@@ -11,8 +11,7 @@ public class AccountBalance {
 		Balance current5=new Balance("tarun ",60);
 		acc.show();
 		current1.show();
-		current2.show();
-
+		current2.show();		
 	}
 
 }
