@@ -7,7 +7,9 @@ public class Boxdemo {
 		System.out.println(box1.calcvolume());
 		
 		Box box2=new Box(10,20,30);
+		box2.cal();
 		System.out.println(box2.calcvolume());
+		
 		
 		Box box3=new Box();
 		box3.setDbdepth(10);

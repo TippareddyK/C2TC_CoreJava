@@ -15,6 +15,13 @@ public class ScopeOfVariable {
 		 System.out.println(inner);
 		 System.out.println(outter);
 		
+		 
+		 int a=5;
+		 int b=5;
+		 a +=5;
+		 // -=20;
+		 b =5%6;
+		 System.out.println(b);
 
 	}
 

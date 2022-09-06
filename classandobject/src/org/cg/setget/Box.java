@@ -13,6 +13,10 @@ public class Box {
 		this.dbhight = dbhight;
 		this.dbdepth = dbdepth;
 	}
+	public void cal() {
+		double result=(dbwidth*dbhight*dbdepth);
+		System.out.println("result is"+result);
+	}
 	double calcvolume() {
 		return dbwidth*dbhight*dbdepth;
 	}
